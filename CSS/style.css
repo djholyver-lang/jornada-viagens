@@ -1,13 +1,24 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fontes/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
 :root{
     --brackgroud-primary-color: #ffffff;
     --brackgroud-secondary-color: #f5f5f5;
     --brackgroud-tertiary-color: #0000;
 
-    --butoon-primary-color: #8f0101;
-    --butoon-secondary-color: #b81515;
+    --primary-color: #8f0101;
+    --secondary-color: #b81515;
 
     --text-primary-color: #222222;
     --text-secondary-color: #ffffff;
+
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 }
 
 body, img, h1, p, fieldset, legend, select, input, label, textarea, button {
