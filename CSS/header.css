@@ -1,12 +1,22 @@
 header {
-  width: 100%;
-  height: 138px;
   background-color: var(--brackgroud-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
 }
 
 .logo img {
   display: inline-block;
   width: 68px;
   height: 64px;
-  margin: 37px 0 0 48px;
+}
+
+.navigation-menu {
+  margin-top: 18px;
+}
+
+nav {
+  display: none;
 }
